@@ -4,7 +4,7 @@ import {file, glob} from 'astro/loaders';
 export const postSchema = z.object({
     title: z.string(),
     description: z.string(),
-    pubDate: z.coerce.date(),
+    pubDate: z.string(),
     // heroImage: z.string().optional(),
     isDraft: z.boolean().optional(),
 })
