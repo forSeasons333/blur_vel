@@ -1,7 +1,7 @@
 ---
 title: 基于Asrto搭建一个属于自己的博客
 description: 使用Versel托管，无需服务器
-pubDate: 2025-02-08
+pubDate: '2025-02-08'
 ---
 
 ------

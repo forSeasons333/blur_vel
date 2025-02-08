@@ -1,5 +1,5 @@
-import fs from "fs"
-import path from "path"
+import fs from 'node:fs';
+import path from 'node:path';
 
 function getDate() {
     const today = new Date()
@@ -32,7 +32,8 @@ if (fs.existsSync(fullPath)) {
     process.exit(1)
 }
 
-const content = `---
+const content = 
+`---
 title: ${args[0]}
 description: ${args[0]}
 pubDate: ${getDate()}
