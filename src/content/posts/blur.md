@@ -28,12 +28,8 @@ pubDate: '2025-02-08'
 
 ### 	3.clone项目到本地
 
-```python
-docker run -p 9987:9987/udp \
--p 30033:30033 -p 10011:10011 \
--e TS3SERVER_LICENSE=accept \
---restart=always \
---name ts teamspeak
+```cmd
+git clone git@github.com:Jazee6/astro-blur.git
 ```
 
 
