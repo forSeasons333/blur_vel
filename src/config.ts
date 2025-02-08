@@ -1,11 +1,11 @@
 export const siteConfig: SiteConfig = {
-    title: "Hi! Jazee",
+    title: "四季如春",
     language: "zh",
     description: "Jazee's personal blog. Powered by Astro Blog Theme Blur.",
     keywords: "Jazee, blog, personal blog, Astro, Astro Blog Theme Blur",
-    author: "Jazee",
-    avatar: "/avatar.png",
-    favicon: "/favicon.png",
+    author: "四季Destination",
+    avatar: "/taeyeon.png",
+    favicon: "/ririka.png",
     site: "https://jaze.top",
 
     page_size: 10,
@@ -14,12 +14,12 @@ export const siteConfig: SiteConfig = {
 export const navBarConfig: NavBarConfig = {
     links: [
         {
-            name: 'Projects',
-            url: '/projects'
-        },
-        {
             name: 'Links',
             url: '/links'
+        },
+        {
+            name: 'Others',
+            url: '/projects'
         },
         {
             name: 'About',
@@ -31,14 +31,24 @@ export const navBarConfig: NavBarConfig = {
 export const socialLinks: SocialLink[] = [
     // https://icon-sets.iconify.design/material-symbols/
     {
-        label: 'GitHub',
-        icon: 'mdi-github',
-        url: 'https://github.com/Jazee6'
+        label: 'BiliBili',
+        icon: 'SimpleIconsBilibili',
+        url: 'https://space.bilibili.com/403039446'
     },
     {
-        label: 'Email',
-        icon: 'material-symbols:mail-rounded',
-        url: 'mailto:jazee@jaze.top'
+        label: 'CloudMusic',
+        icon: 'neteasecloudmusic',
+        url: 'https://music.163.com/#/user/home?id=1551269993'
+    },
+    {
+        label: 'QQMusic',
+        icon: 'qqmusic',
+        url: 'https://c6.y.qq.com/base/fcgi-bin/u?__=5NyOw1LcTMcE'
+    },
+    {
+        label: 'Telegram',
+        icon: 'telegram',
+        url: 'https://t.me/forSeasons7'
     }
 ]
 

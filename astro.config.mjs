@@ -6,22 +6,29 @@ import icon from "astro-icon";
 import {remarkModifiedTime} from "./src/utils/remark-modified-time";
 import {siteConfig} from "./src/config";
 
+import vercel from '@astrojs/vercel';
+
 // https://astro.build/config
 export default defineConfig({
-    site: siteConfig.site,
-    integrations: [mdx(), sitemap(), tailwind({
-        applyBaseStyles: false
-    }), icon()],
-    markdown: {
-        shikiConfig: {
-            themes: {
-                light: 'one-light',
-                dark: 'one-dark-pro'
-            }
-        },
-        remarkPlugins: [remarkModifiedTime]
-    },
-    devToolbar: {
-        enabled: false
-    }
+  site: siteConfig.site,
+
+  integrations: [mdx(), sitemap(), tailwind({
+      applyBaseStyles: false
+  }), icon()],
+
+  markdown: {
+      shikiConfig: {
+          themes: {
+              light: 'one-light',
+              dark: 'one-dark-pro'
+          }
+      },
+      remarkPlugins: [remarkModifiedTime]
+  },
+
+  devToolbar: {
+      enabled: false
+  },
+
+  adapter: vercel()
 });
