@@ -29,4 +29,14 @@ Napcat下载: *[Napcat](https://github.com/NapNeko/NapCatQQ/releases)*
 
 推荐下载Windows一键包：Win64无头（有头无头即有无可视UI)
 
-下载完成后解压打开Napcat文件夹，可以看到
+下载完成后解压打开Napcat.Shell文件夹，选择Napcat.bat启动
+
+等待片刻，显示二维码后打开Napcat.Shell文件夹根目录，找到如下路径下的qrcode.png文件打开
+
+```
+.\NapCat.Shell\versions\9.9.17-31245\resources\app\napcat\cache
+```
+
+使用你要作为机器人的QQ号码扫码登陆，等待片刻即可看到控制台下消息弹出，即为登陆成功
+
+此时可以打开
