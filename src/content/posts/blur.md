@@ -177,6 +177,14 @@ export const licenseConfig: LicenseConfig = {
 
 本文使用*Vercel* 作为示例，其余平台的部署教程可在Astro官方文档：[*Astro Docs*](https://docs.astro.build/zh-cn/getting-started/)下找到
 
+使用以下 `astro add` 命令为你的 Astro 项目中添加 [Vercel 适配器](https://docs.astro.build/zh-cn/guides/integrations-guide/vercel/) 以开启 SSR。此命令将安装适配器并同时自动对你的 `astro.config.mjs` 文件进行适当的配置：
+
+```bash
+npx astro add vercel
+```
+
+
+
 ### 3.2 上传项目文件到Github
 
 - 如果你有git工具
