@@ -22,14 +22,14 @@ pubDate: 2025-02-08
 
 ​	[astro-blur](https://github.com/Jazee6/astro-blur)（本博客所用主题）
 
-### 	1.建立github账号
+### 		1.建立github账号
 
-### 	2.以主题仓库为模板fork到自己的仓库内
+### 		2.以主题仓库为模板fork到自己的仓库内
 
-### 	3.clone项目到本地
+### 		3.clone项目到本地（以fuwari为例）
 
 ```cmd
-git clone git@github.com:Jazee6/astro-blur.git
+git clone git@github.com:saicaca/fuwari.git
 ```
 
 
