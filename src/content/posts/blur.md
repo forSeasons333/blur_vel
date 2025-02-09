@@ -56,6 +56,6 @@ npm run dev
 
 ​	*此处推荐使用[Vscode](https://code.visualstudio.com/)进行编辑*
 
-​	在Blog文件夹根目录下右键空白处选择在Vscode中打开
+​	在Blog文件夹根目录下右键空白处选择在Vscode中打开找到config.ts
 
 ​	
