@@ -1,8 +1,8 @@
 export const siteConfig: SiteConfig = {
     title: "四季如春",
     language: "zh",
-    description: "Jazee's personal blog. Powered by Astro Blog Theme Blur.",
-    keywords: "Jazee, blog, personal blog, Astro, Astro Blog Theme Blur",
+    description: "明明都向前走，方向却渐渐不同",
+    keywords: "",
     author: "四季Destination",
     avatar: "/taeyeon.png",
     favicon: "/ririka.png",
