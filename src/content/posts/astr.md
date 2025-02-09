@@ -47,7 +47,7 @@ Napcat下载: *[Napcat](https://github.com/NapNeko/NapCatQQ/releases)*
 
 打开webui.json,复制token备用
 
-此时Napcat已经运行起来了，打开浏览器，输入以下网址，将token换为在webui.json：
+此时Napcat已经运行起来了，打开浏览器，输入以下网址，将token换为在webui.json中复制的token：
 
 ```html
 http://127.0.0.1:6099/webui?token=xxxx
