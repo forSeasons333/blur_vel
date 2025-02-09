@@ -1,6 +1,6 @@
 ---
 title: 基于Asrto搭建一个属于自己的博客
-description: wdada
+description: 使用Astro框架进行博客搭建并推送
 pubDate: 2025-02-08
 ---
 
