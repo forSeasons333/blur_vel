@@ -14,6 +14,19 @@ pubDate: 2025-02-08
 
 ### 1.安装依赖
 
-- python 3.10以上，各版本下载链接：[python Releases](https://www.python.org/downloads/)，本文演示使用python 3.11.5：python 3.11.5[下载链接](https://www.python.org/downloads/release/python-3115/)
-- java 21
+- python 3.10以上，各版本下载链接：[*python Releases*](https://www.python.org/downloads/)，本文演示使用python 3.11.5：[*下载链接*](https://www.python.org/downloads/release/python-3115/)
+- java环境，本文演示使用java 21：[*下载链接*](https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.exe)
 
+### 2.下载启动Napcat
+
+*Q:Napcat是什么？*
+
+*A:Napcat是基于TypeScript构建的Bot框架,通过相应的启动器或者框架,主动调用QQ Node模块提供给客户端的接口,实现Bot的功能.*
+
+详见[*Napcat文档*](https://napneko.github.io/)
+
+Napcat下载: *[Napcat](https://github.com/NapNeko/NapCatQQ/releases)*
+
+推荐下载Windows一键包：Win64无头（有头无头即有无可视UI)
+
+下载完成后解压打开Napcat文件夹，可以看到
