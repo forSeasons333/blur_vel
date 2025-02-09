@@ -8,7 +8,7 @@ pubDate: 2025-02-08
 
 # 前言
 
-本文旨在帮助读者实现讲现有AI接入QQ，包括不限于Deepseek，ChatGPT和Gemini等等
+本文旨在帮助读者实现将现有AI接入QQ，包括不限于Deepseek，ChatGPT和Gemini等等
 
 ## 一.部署前准备
 
@@ -39,4 +39,16 @@ Napcat下载: *[Napcat](https://github.com/NapNeko/NapCatQQ/releases)*
 
 使用你要作为机器人的QQ号码扫码登陆，等待片刻即可看到控制台下消息弹出，即为登陆成功
 
-此时可以打开
+返回上一级文件夹打开config文件夹
+
+```
+.\NapCat.Shell\versions\9.9.17-31245\resources\app\napcat\config
+```
+
+打开webui.json,复制token备用
+
+此时Napcat已经运行起来了，打开浏览器，输入以下网址，将token换为在webui.json：
+
+```html
+http://127.0.0.1:6099/webui?token=xxxx
+```
