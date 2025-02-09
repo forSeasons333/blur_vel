@@ -32,10 +32,30 @@ pubDate: 2025-02-08
 git clone git@github.com:saicaca/fuwari.git
 ```
 
-
-
 ## ***二.对博客进行配置***
 
-​	
+### 	1.安装依赖
+
+​	安装依赖项，控制台键入代码：
+
+```cmd
+npm i
+```
+
+​	此时你的Blog应该就可以跑起来了
+
+​	键入：
+
+```cmd
+npm run dev
+```
+
+​	查看控制台输出，复制
+
+### 	2.修改配置文件
+
+​	*此处推荐使用[Vscode](https://code.visualstudio.com/)进行编辑*
+
+​	在Blog文件夹根目录下右键空白处选择在Vscode中打开
 
 ​	
