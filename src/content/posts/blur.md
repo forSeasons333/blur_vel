@@ -18,7 +18,7 @@ pubDate: 2025-02-08
 
 ​	[fuwari](https://github.com/saicaca/fuwari)
 
-​	
+​	[Koibumi](https://github.com/koibumi-design/astro-blog)
 
 ​	[astro-blur](https://github.com/Jazee6/astro-blur)（本博客所用主题）
 
