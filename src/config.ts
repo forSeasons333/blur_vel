@@ -5,7 +5,7 @@ export const siteConfig: SiteConfig = {
     keywords: "",
     author: "四季Destination",
     avatar: "/taeyeon.png",
-    favicon: "/ririka.png",
+    favicon: "/circle-circuitry_38406.png",
     site: "https://www.seasons333.asia/",
 
     page_size: 10,
