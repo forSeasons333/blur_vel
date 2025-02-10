@@ -205,7 +205,7 @@ git push -u origin main
 - 注册一个[*Vercel* ](https://vercel.com/)账号
 - 选择右侧Add New，创建一个新的Project
 - 登陆自己的Github账号，import导入博客项目库
-- 设置好项目名称（项目名称会是Vercel分发给你的子域名的一部分，例如 *https://项目名称.vercel.app/*）
+- 设置好项目名称（项目名称会是Vercel分发给你的子域名的一部分，例如 https://项目名称.vercel.app/）
 - Deploy然后耐心等待
 - 网页托管完成之后立马就可以登陆了
 
