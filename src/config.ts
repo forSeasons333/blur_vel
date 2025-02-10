@@ -1,6 +1,6 @@
 export const siteConfig: SiteConfig = {
     title: "四季如春",
-    language: "zh",
+    language: "en",
     description: "明明都向前走，方向却渐渐不同",
     keywords: "",
     author: "四季Destination",
