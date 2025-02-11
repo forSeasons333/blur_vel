@@ -8,7 +8,7 @@ export const siteConfig: SiteConfig = {
     favicon: "/circle-circuitry_38406.png",
     site: "https://www.seasons333.asia/",
 
-    page_size: 10,
+    page_size: 4,
 }
 
 export const navBarConfig: NavBarConfig = {
