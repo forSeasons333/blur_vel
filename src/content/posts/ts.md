@@ -148,7 +148,7 @@ docker logs teamspeak-server2 | grep "ServerAdmin privilege key"
 
 1. **下载 TeamSpeak 客户端**：访问 [https://www.teamspeak.com](https://www.teamspeak.com/)
 
-2. 连接服务器
+2. **连接服务器**
 
    ：
 
