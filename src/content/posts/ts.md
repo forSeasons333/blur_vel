@@ -25,20 +25,22 @@ TeamSpeak 是一款广泛使用的低延迟语音通信工具，适用于游戏�
 ```bash
 # 更新软件包列表
 sudo apt update
-# 安装依赖工具
-sudo apt install apt-transport-https ca-certificates curl software-properties-common
-# 添加 Docker 官方 GPG 密钥
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
-# 添加 Docker 仓库
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-# 安装 Docker 引擎
+# 添加阿里云密钥
+curl -fsSL http://mirrors.aliyun.com/docker-ce/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+# 载入软件源
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] http://mirrors.aliyun.com/docker-ce/linux/ubuntu \
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+# 更新软件源
 sudo apt update
-sudo apt install docker-ce docker-ce-cli containerd.io
+# 安装 Docker 引擎
+sudo apt install docker-ce
 # 启动 Docker 并设置开机自启
-sudo systemctl enable docker --now
-# 将当前用户加入 docker 组（避免频繁使用 sudo）
 sudo usermod -aG docker $USER
-newgrp docker  # 或重新登录终端生效
+# 更新用户组
+newgrp docker
+# 设置镜像加速
+sudo vim /etc/docker/daemon.json
 ```
 
 ### 3. 验证 Docker 安装
