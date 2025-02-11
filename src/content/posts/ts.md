@@ -1,5 +1,5 @@
 ---
-title: 在Ubuntu上借助Docker部署多个TeamSpeak语音服务器的完整指南
+title: 在Ubuntu上借助Docker部署多个TeamSpeak语音服务器
 description: 通过 Docker，可在 Ubuntu 服务器上快速部署了多个独立的 TeamSpeak 实例，实现了资源隔离与灵活管理。此方法不仅节省硬件成本，还便于后续扩展和维护。
 pubDate: 2025-02-04
 ---
