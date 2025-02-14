@@ -146,17 +146,17 @@ docker logs teamspeak-server2 | grep "ServerAdmin privilege key"
 
 ## 五、客户端连接指南
 
-1. **下载 TeamSpeak 客户端**：访问 [https://www.teamspeak.com](https://www.teamspeak.com/)
+### 1.**下载 TeamSpeak 客户端**：访问 [https://www.teamspeak.com](https://www.teamspeak.com/)
 
-2. **连接服务器**
+### 2.**连接服务器**：
 
-   ：
+- **地址**：`服务器IP:主机端口`（如 `123.45.67.89:9987` 或 `:9988`）
+- **昵称**：自定义名称
+- **密码**：留空（除非设置了密码）
 
-   - **地址**：`服务器IP:主机端口`（如 `123.45.67.89:9987` 或 `:9988`）
-   - **昵称**：自定义名称
-   - **密码**：留空（除非设置了密码）
+### 3.**获取管理员权限**：
 
-3. **获取管理员权限**：首次连接后输入之前记录的权限密钥。
+首次连接后输入之前记录的权限密钥。
 
 ------
 
@@ -174,7 +174,7 @@ docker start teamspeak-server1
 docker rm teamspeak-server1
 ```
 
-#### 2. 自定义配置文件
+### 2. 自定义配置文件
 
 TeamSpeak 配置文件位于挂载目录的 `ts3server.ini`，可按需修改：
 
@@ -182,7 +182,7 @@ TeamSpeak 配置文件位于挂载目录的 `ts3server.ini`，可按需修改：
 nano ~/teamspeak/server1/data/ts3server.ini
 ```
 
-#### 3. 防火墙配置
+### 3. 防火墙配置
 
 若使用 UFW 防火墙，需放行端口：
 
