@@ -48,7 +48,7 @@ node -v
 将主题clone到本地
 
 ```bash
-git clone 项目地址
+git clone git@github.com:saicaca/fuwari.git #以fuwari为例
 ```
 
 ### 1.3 安装依赖
@@ -200,7 +200,7 @@ git remote add origin 你的仓库地址
 git push -u origin main
 ```
 
-- 或者直接使用Vscode提交
+- 或者直接使用Vscode或者Github Desktop提交
 
 ### 3.3 部署到Versel进行托管
 
