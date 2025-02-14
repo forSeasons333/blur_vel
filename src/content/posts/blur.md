@@ -54,7 +54,8 @@ git clone git@github.com:saicaca/fuwari.git #以fuwari为例
 ### 1.3 安装依赖
 
 ```bash
-npm install
+pnpm install
+pnpm add sharp
 ```
 
 此时网页就可以在本地跑起来了，启动本地服务器：
