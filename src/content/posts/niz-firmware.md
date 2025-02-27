@@ -1,12 +1,22 @@
 ---
 title: NIZ Mini84 V6pro Firmware 说明
 description: 宁芝Mini84 V6pro固件说明
-pubDate: 2025-02-27
+pubDate: 2025-02-17
 ---
 
 ------
 
 【本文约1020字】
+
+## 前言
+
+静电容键盘的固件（Firmware）是其内部电路控制的核心软件，负责处理按键输入、触发逻辑、自定义功能以及与计算机的通信。相比机械键盘，静电容键盘的固件通常更封闭。
+
+
+
+------
+
+
 
 ## AW&PT Firmware
 
