@@ -180,7 +180,7 @@ export const licenseConfig: LicenseConfig = {
 
 本文使用*Vercel* 作为示例，其余平台的部署教程可在Astro官方文档：[*Astro Docs*](https://docs.astro.build/zh-cn/getting-started/)下找到
 
-使用以下 `astro add` 命令为你的 Astro 项目中添加 [Vercel 适配器](https://docs.astro.build/zh-cn/guides/integrations-guide/vercel/) 以开启 SSR。此命令将安装适配器并同时自动对你的 `astro.config.mjs` 文件进行适当的配置：
+使用以下 `astro add` 命令为你的 Astro 项目中添加 [*Vercel 适配器*](https://docs.astro.build/zh-cn/guides/integrations-guide/vercel/) 以开启 SSR。此命令将安装适配器并同时自动对你的 `astro.config.mjs` 文件进行适当的配置：
 
 ```bash
 npx astro add vercel
@@ -212,7 +212,7 @@ git push -u origin main
 - Deploy然后耐心等待
 - 网页托管完成之后立马就可以登陆了
 
-修改博客文件只要同步到GIthub仓库即可，Vercel会自动同步刷新你的博客页面
+修改博客文件只要同步到Github仓库即可，Vercel会自动同步刷新你的博客页面
 
 ## 四. 绑定域名（可选项）
 
